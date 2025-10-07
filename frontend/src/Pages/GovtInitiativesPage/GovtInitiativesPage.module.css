@@ -1,18 +1,22 @@
 .initiativesSection {
-    margin: 0 auto;
-    max-width: 1200px;
-    background: #f7fdf9; /* Lighter background */
-    border-radius: 16px;
-    padding: 48px 32px 64px 32px;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
+  margin: 0 auto;
+  max-width: 1200px;
+  background: #f7fdf9; /* Lighter background */
+  border-radius: 16px;
+  padding: 48px 32px 64px 32px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
+}
+
+.pageWrapper {
+  padding-top: 96px; /* space for fixed navbar */
 }
 
 .heading {
   text-align: center;
   font-size: 2.8rem;
-  color: #1B3738; /* Darker text */
+  color: #1b3738; /* Darker text */
   margin-bottom: 48px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 
@@ -23,30 +27,31 @@
 }
 
 .initiativeCard {
-    background: #ffffff;
-    border-radius: 16px;
-    padding: 32px 24px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    transition: box-shadow 0.3s, transform 0.3s;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-    cursor: pointer;
-    font-family: 'Poppins', sans-serif;
-    color: #1B3738;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: box-shadow 0.3s, transform 0.3s;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  color: #1b3738;
 }
 
-.initiativeCard:hover, .initiativeCard:focus {
+.initiativeCard:hover,
+.initiativeCard:focus {
   box-shadow: 0 8px 24px rgba(27, 55, 56, 0.15);
   transform: translateY(-5px);
-  color: #1B3738;
+  color: #1b3738;
 }
 
 .iconWrapper {
-    margin-bottom: 24px;
-    color: #90E668;
+  margin-bottom: 24px;
+  color: #90e668;
 }
 
 .initiativeName {
