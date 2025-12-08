@@ -16,14 +16,16 @@ const componentMap = {
   koena: lazy(() => import("../AboutEveryone/Koena/Koena")),
   gargi: lazy(() => import("../AboutEveryone/Gargi/Gargi")),
   urukriti: lazy(() => import("../AboutEveryone/Urukriti/Urukriti")),
+  anand: lazy(() => import("../AboutEveryone/Anand/Anand")),
+  pramod: lazy(() => import("../AboutEveryone/Pramod/Pramod")),
 };
 
 const DynamicProfile = () => {
   const { name } = useParams();
-  // Extract first name ignoring prefixes like "Dr." and last names
+  // Extract first name ignoring prefixes like "Dr.", "Adv.", and "Shri" and last names
   const firstName = name
     .toLowerCase()
-    .replace(/(?:dr|adv)\.?\s*/gi, "") // remove "dr." and "adv." prefixes
+    .replace(/(?:dr|adv|shri)\.?\s*/gi, "") // remove prefixes
     .split(" ")[0]; // take first word as key
 
   const ProfileComponent = componentMap[firstName];

@@ -20,15 +20,20 @@ import ScrollToTop from "./components/utils/ScrollToTop";
 // Import member components
 import Agniva from "./Pages/AboutEveryone/Agniva/Agniva";
 import Aishwarya from "./Pages/AboutEveryone/Aishwarya/Aishwarya";
+import Anand from "./Pages/AboutEveryone/Anand/Anand";
 import Anuja from "./Pages/AboutEveryone/Anuja/Anuja";
 import Ashok from "./Pages/AboutEveryone/Ashok/Ashok";
+import Gargi from "./Pages/AboutEveryone/Gargi/Gargi";
 import Isha from "./Pages/AboutEveryone/Isha/Isha";
+import Koena from "./Pages/AboutEveryone/Koena/Koena";
+import Pramod from "./Pages/AboutEveryone/Pramod/Pramod";
 import Shivam from "./Pages/AboutEveryone/Shivam/Shivam";
 import Shrut from "./Pages/AboutEveryone/Shrut/Shrut";
 import Shubhra from "./Pages/AboutEveryone/Shubhra/Shubhra";
 import Siya from "./Pages/AboutEveryone/Siya/Siya";
 import Sunita from "./Pages/AboutEveryone/Sunita/Sunita";
 import Suvansh from "./Pages/AboutEveryone/Suvansh/Suvansh";
+import Urukriti from "./Pages/AboutEveryone/Urukriti/Urukriti";
 
 import LandingPage from "./Pages/LandingPage/LandingPage";
 import LabourEstimationPage from "./Pages/LaborEs/LaboursEstimationPagePage";
@@ -106,15 +111,20 @@ function App() {
             {/* Member routes */}
             <Route path="/abouteveryone/agniva" element={<Agniva />} />
             <Route path="/abouteveryone/aishwarya" element={<Aishwarya />} />
+            <Route path="/abouteveryone/anand" element={<Anand />} />
             <Route path="/abouteveryone/anuja" element={<Anuja />} />
             <Route path="/abouteveryone/ashok" element={<Ashok />} />
+            <Route path="/abouteveryone/gargi" element={<Gargi />} />
             <Route path="/abouteveryone/isha" element={<Isha />} />
+            <Route path="/abouteveryone/koena" element={<Koena />} />
+            <Route path="/abouteveryone/pramod" element={<Pramod />} />
             <Route path="/abouteveryone/shivam" element={<Shivam />} />
             <Route path="/abouteveryone/shrut" element={<Shrut />} />
             <Route path="/abouteveryone/shubhra" element={<Shubhra />} />
             <Route path="/abouteveryone/siya" element={<Siya />} />
             <Route path="/abouteveryone/sunita" element={<Sunita />} />
             <Route path="/abouteveryone/suvansh" element={<Suvansh />} />
+            <Route path="/abouteveryone/urukriti" element={<Urukriti />} />
           </Routes>
         </>
       )}

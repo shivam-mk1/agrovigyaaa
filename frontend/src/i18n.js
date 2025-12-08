@@ -63,6 +63,14 @@ i18n
               name: "Dr. Aishwarya Yadav",
               role: "Chair Executive Council",
             },
+            anandkatikar: {
+              name: "Dr. Anand Katikar",
+              role: "Secretary, Deccan Education Society, Pune and Member, Governing Body",
+            },
+            pramodrawat: {
+              name: "Shri Pramod Rawat",
+              role: "DES Chairman, Council & Governing Body",
+            },
           },
 
           team: {
@@ -527,6 +535,14 @@ i18n
               name: "डॉ. ऐश्वर्या यादव",
               role: "अध्यक्ष कार्यकारी परिषद",
             },
+            anandkatikar: {
+              name: "Dr. Anand Katikar",
+              role: "Secretary, Deccan Education Society, Pune and Member, Governing Body",
+            },
+            pramodrawat: {
+              name: "Shri Pramod Rawat",
+              role: "DES Chairman, Council & Governing Body",
+            },
           },
 
           team: {
@@ -974,6 +990,14 @@ i18n
             aishwaryayadav: {
               name: "डॉ. ऐश्वर्या यादव",
               role: "अध्यक्ष कार्यकारी परिषद",
+            },
+            anandkatikar: {
+              name: "Dr. Anand Katikar",
+              role: "Secretary, Deccan Education Society, Pune and Member, Governing Body",
+            },
+            pramodrawat: {
+              name: "Shri Pramod Rawat",
+              role: "DES Chairman, Council & Governing Body",
             },
           },
 
