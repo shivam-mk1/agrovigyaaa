@@ -52,8 +52,16 @@ const projectDirector = {
 
 const mentors = [
   {
+    key: "pramodrawat",
+    img: "https://i.postimg.cc/DzDx2Q5s/Shri_pramod_rawat.jpg",
+  },
+  {
     key: "ashokpalande",
     img: "https://i.ibb.co/PvGB5gpM/Ashok-palande-pic.jpg",
+  },
+  {
+    key: "anandkatikar",
+    img: "https://i.postimg.cc/nLMdbSK0/Dr_Anand_Katikar.jpg",
   },
   {
     key: "sunitaadhav",
